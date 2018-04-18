@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
+    
+    @IBOutlet weak var leftDiceImage: UIImageView!
+    @IBOutlet weak var rightDiceImage: UIImageView!
+    
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,10 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func rollDiceBtnPressed(_sender: UIButton) {
+        
     }
 
 
