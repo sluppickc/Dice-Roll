@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="120" id="ujk-OV-Sti"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfL-tj-KIb">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfL-tj-KIb">
                                 <rect key="frame" x="98" y="446" width="179" height="60"/>
                                 <color key="backgroundColor" red="0.51537969645084225" green="0.81682265228426398" blue="0.56304847264673763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
